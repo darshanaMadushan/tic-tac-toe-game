@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tic Tac Toe Game</title>
+</head>
+
+<body>
+    <header>
+        <h1>Simple TIC-TAC-TOE GAME</h1>
+        <p>Game starts with by just tap on the box <br/> First player starts as ❌ and Second player as ⭕</p>
+    </header>
+    <div class="game-board" id="game-board">
+        <div class="firstColumn">
+            <input type="text" id="first" readonly />
+            <input type="text" id="second" readonly />
+            <input type="text" id="third" readonly />
+        </div>
+
+        <div class="secondColumn">
+            <input type="text" id="fourth" readonly />
+            <input type="text" id="fifth" readonly />
+            <input type="text" id="sixth" readonly />
+        </div>
+
+        <div class="thirdColumn">
+            <input type="text" id="seventh" readonly />
+            <input type="text" id="eighth" readonly />
+            <input type="text" id="ninth" readonly />
+        </div>
+    </div>
+
+    <button type="reset" onclick="clickButtonReset()">Reset</button>
+    <p id="cancel"></p>
+    <footer>
+        <h3>Developed by : Darshana Madushan Samarasinghe</h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
